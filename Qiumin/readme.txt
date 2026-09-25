@@ -1,7 +1,7 @@
 Qiumin WordPress Theme
 =====================
 
-Version: 2.6.1
+Version: 2.6.2
 
 Qiumin is a classic two-column WordPress theme for personal blogs and software-sharing sites. It includes a homepage slider, sidebar modules, archive/search templates, comment smilies, post view counts, and a lightweight image-host uploader.
 
@@ -21,6 +21,13 @@ Notes
 
 Changelog
 ---------
+
+### 2.6.2 (2026-09-26)
+- Synchronized the theme metadata, README, and asset cache version to 2.6.2.
+- Fixed JavaScript link previews for links without a title attribute: use link text or image alt text when available, and skip empty text previews.
+- Removed the Baidu, 360, and Google site verification tags and the hardcoded author meta tag from the header.
+- Preserved the charset and viewport settings for page encoding and mobile display.
+- Updated the theme date and release notes while retaining the previous changelog entries.
 
 ### 2.6.1
 - Unified sidebar module text colors with the first sidebar module.

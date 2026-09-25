@@ -5,6 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 $themename = 'Qiumin';
 
+// 与 style.css、readme.txt 的发布版本保持一致，用于刷新样式和脚本缓存。
 if ( ! defined( 'QIUMIN_THEME_VERSION' ) ) {
 	define( 'QIUMIN_THEME_VERSION', '2.6.2' );
 }

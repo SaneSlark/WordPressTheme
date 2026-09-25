@@ -2,7 +2,7 @@
 Theme Name: Qiumin
 Theme URI: http://www.hehua.us/
 Description: Qiumin Theme by hehua, It's a theme for Qiumin.Thanks for using it. If you want to get a new version, Please Visit http://www.hehua.us/
-Version: 2.6.1
+Version: 2.6.2
 Requires at least: 6.8
 Tested up to: 7.0
 Requires PHP: 7.4
@@ -10,9 +10,11 @@ Author: HeHua
 Author URI: http://www.hehua.us/
 Tags: Qiumin,Blue,Shine,BlueShine,Sky,Gray
 Layout: Two columns
-Update:2026-07-08
+Update:2026-09-26
 Text Domain: qiumin
 */
+
+/* 2.6.2：统一主题版本与资源缓存版本，移除页头站点验证及作者标签；详见 readme.txt。 */
 
 /* 基础排版：统一盒模型、图片缩放和主题默认字体。 */
 body{background-color:#1d9aca; height:auto; min-height:100%; font:14px/1.5 'Microsoft YaHei', 'PingFang SC', Arial, sans-serif; color:#413c36; }
